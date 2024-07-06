@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8485C4FE2C3912310095D88E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8485C4FD2C3912310095D88E /* main.cpp */; };
+		8485C5072C3919120095D88E /* IntWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8485C5052C3919120095D88E /* IntWrapper.cpp */; };
+		8485C50A2C391A4F0095D88E /* Sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8485C5092C391A4F0095D88E /* Sequence.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +28,10 @@
 		8485C4FA2C3912310095D88E /* memleak */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = memleak; sourceTree = BUILT_PRODUCTS_DIR; };
 		8485C4FD2C3912310095D88E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8485C5042C39129D0095D88E /* IntWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntWrapper.h; sourceTree = "<group>"; };
+		8485C5052C3919120095D88E /* IntWrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IntWrapper.cpp; sourceTree = "<group>"; };
+		8485C5062C3919120095D88E /* IntWrapper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IntWrapper.hpp; sourceTree = "<group>"; };
+		8485C5082C3919670095D88E /* Sequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sequence.h; sourceTree = "<group>"; };
+		8485C5092C391A4F0095D88E /* Sequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sequence.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				8485C5042C39129D0095D88E /* IntWrapper.h */,
+				8485C5052C3919120095D88E /* IntWrapper.cpp */,
+				8485C5082C3919670095D88E /* Sequence.h */,
+				8485C5092C391A4F0095D88E /* Sequence.cpp */,
+				8485C5062C3919120095D88E /* IntWrapper.hpp */,
 				8485C4FD2C3912310095D88E /* main.cpp */,
 			);
 			path = memleak;
@@ -121,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8485C50A2C391A4F0095D88E /* Sequence.cpp in Sources */,
 				8485C4FE2C3912310095D88E /* main.cpp in Sources */,
+				8485C5072C3919120095D88E /* IntWrapper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
